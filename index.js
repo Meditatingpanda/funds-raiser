@@ -15,6 +15,7 @@ db.map((item,id)=>{
         website:item.website,
         crunchbase_url:item.crunchbase_url,
         linkedin_url:item.linkedin_url,
+        category:[item.n1,item.n2,item.n3,item.n4,item.n5],
         
      }
      data.push(newData);
